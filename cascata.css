@@ -1,10 +1,5 @@
-*
-{
-	margin: 0;
-}
-
-h1#titulo
+#titulo
 {
 	text-align: center;
-	color: #f0f;
+	color: red;
 }
