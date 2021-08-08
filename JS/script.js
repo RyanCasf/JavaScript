@@ -1,4 +1,3 @@
 //alert("Bem-vindo!");
-const nomeUsuario = "Ryan";
-
+let nomeUsuario = "Ryan";
 console.log("Seja Bem-vindo: "+nomeUsuario);
