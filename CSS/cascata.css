@@ -1,5 +1,6 @@
-#titulo
-{
-	text-align: center;
-	color: red;
-}
+* {margin: 0 auto; padding: 0; text-align: center;}
+.visor { max-width: 500px; width: 100%; padding: 10px; box-sizing: border-box; }
+
+button { padding: 10px; box-sizing: border-box; border: none; font-size: 1em; cursor: pointer; 
+border-radius: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; transition: all .5s; }
+button:hover { background-color: rgb(206, 223, 250); }
