@@ -28,8 +28,7 @@ function end() {
     document.getElementById('counter').innerHTML = sdf;
 }
 
-function timer() 
-{
+function timer() {
     second++;
     if (second == 60) {
         second = 0;

@@ -2,27 +2,35 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title>JavaScript - WEB Dev</title>
+	<title>Kanban</title>
 
 	<link rel="stylesheet" type="text/css" href="CSS/cascata.css">
 	<script type="text/javascript" src="JS/script.js"></script>
 </head>
 <body>
 
+	<div class="title">
+		<h1>Gerenciando Projetos</h1>
+	</div>
+
+	<div class="panelKanban" style="visibility: hidden; width: 0; height: 0;">
+		<div class="choice">
+			<p draggable="true">Value 1</p>
+			<p draggable="true">Value 2</p>
+			<p draggable="true">Value 3</p>
+			<p draggable="true">Value 4</p>
+		</div>
+		<div class="choice"></div>
+		<div class="choice"></div>
+		<div class="choice"></div>
+	</div>
+
 	<div class="visor">
-		<button onclick="start()" style="background-color: rgb(121, 201, 121);" >Start</button>
-		<button onclick="stop()" style="background-color: rgb(250, 250, 144);">Stop</button>
-		<button onclick="end()" style="background-color: rgb(255, 152, 152);">End</button>
+		<button onclick="start()">Start</button>
+		<button onclick="stop()">Stop</button>
+		<button onclick="end()">End</button>
 		
 		<h1 id="counter">00:00:00</h1>
 	</div>
-
-	<!--
-		<script type="text/javascript" src="JS/atributos.js"></script>
-		<script type="text/javascript" src="JS/object.js"></script>
-		<script type="text/javascript" src="JS/array.js"></script>
-		<script type="text/javascript" src="JS/functions.js"></script>
-		<script type="text/javascript" src="JS/operators.js"></script>
-	-->
 </body>
 </html>
